@@ -1,0 +1,84 @@
+/* Register.css */
+.dashboard-container {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative; /* Add this to position the logout button correctly */
+}
+.logout-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 10px; /* Smaller padding for a smaller button */
+    font-size: 0.8rem; /* Smaller font size */
+    cursor: pointer;
+    margin-bottom: 20px;
+    position: absolute; /* Position absolutely within the container */
+    top: 20px; /* Distance from the top */
+    right: 20px; /* Distance from the right, adjusted to fit the design */
+    border-radius: 4px; /* Optional: rounded corners for a softer look */
+}
+
+.logout-button:hover {
+    background-color: #d32f2f;
+}
+
+
+.transaction-form {
+    margin-bottom: 2rem;
+}
+
+.transaction-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.transaction-form input,
+.transaction-form select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.transaction-form button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.transaction-form button:hover {
+    background-color: #0056b3;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+.transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.transaction-table th,
+.transaction-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.transaction-table th {
+    background-color: #f4f4f4;
+    color: #333;
+}
